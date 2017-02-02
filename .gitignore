@@ -27,3 +27,6 @@ Podfile.lock
 FacebookSDK*
 FBSDK*
 doc/
+
+Carthage/Checkouts
+Carthage/Build
