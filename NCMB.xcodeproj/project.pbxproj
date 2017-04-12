@@ -218,7 +218,7 @@
 		8AB2CE791CE315F800F27481 /* SubClassHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubClassHandler.h; sourceTree = "<group>"; };
 		8AB2CE7A1CE315F800F27481 /* SubClassHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubClassHandler.m; sourceTree = "<group>"; };
 		8AB2CF1C1CE32C1000F27481 /* NCMB_Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NCMB_Info.plist; sourceTree = "<group>"; };
-		9D305C6C1CEDAC990066BFE7 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		9D305C6C1CEDAC990066BFE7 /* NCMB.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = NCMB.modulemap; sourceTree = "<group>"; };
 		C28DAA031E4357A700B89BEF /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Carthage/Build/iOS/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		C28DAA041E4357A700B89BEF /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Carthage/Build/iOS/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -239,7 +239,7 @@
 		8AB2CDF11CE3153F00F27481 = {
 			isa = PBXGroup;
 			children = (
-				9D305C6C1CEDAC990066BFE7 /* module.modulemap */,
+				9D305C6C1CEDAC990066BFE7 /* NCMB.modulemap */,
 				8AB2CDFD1CE3153F00F27481 /* NCMB */,
 				8AB2CDFC1CE3153F00F27481 /* Products */,
 				C28DAA021E4357A600B89BEF /* Frameworks */,
@@ -260,6 +260,7 @@
 				8AB2CE061CE315F800F27481 /* NCBMRequest */,
 				8AB2CDFE1CE3153F00F27481 /* NCMB.h */,
 				8AB2CE091CE315F800F27481 /* NCMB.m */,
+				8AB2CE141CE315F800F27481 /* NCMBFacebookUtils.m */,
 				8AB2CE0A1CE315F800F27481 /* NCMBACL.h */,
 				8AB2CE0B1CE315F800F27481 /* NCMBACL.m */,
 				8AB2CE0C1CE315F800F27481 /* NCMBAnalytics.h */,
@@ -270,7 +271,6 @@
 				8AB2CE111CE315F800F27481 /* NCMBError.h */,
 				8AB2CE121CE315F800F27481 /* NCMBError.m */,
 				8AB2CE131CE315F800F27481 /* NCMBFacebookUtils.h */,
-				8AB2CE141CE315F800F27481 /* NCMBFacebookUtils.m */,
 				8AB2CE151CE315F800F27481 /* NCMBFile.h */,
 				8AB2CE161CE315F800F27481 /* NCMBFile.m */,
 				8AB2CE171CE315F800F27481 /* NCMBGeoPoint.h */,
@@ -786,7 +786,7 @@
 				INFOPLIST_FILE = NCMB/NCMB_Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "$(SRCROOT)/module.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/NCMB.modulemap";
 				MODULEMAP_PRIVATE_FILE = "";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nifty.cloud.mb.NCMB;
@@ -809,7 +809,7 @@
 				INFOPLIST_FILE = NCMB/NCMB_Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "$(SRCROOT)/module.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/NCMB.modulemap";
 				MODULEMAP_PRIVATE_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nifty.cloud.mb.NCMB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
